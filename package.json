@@ -1,0 +1,27 @@
+{
+  "name": "webpack-with-angular1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "webpack-dev-server -d --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumudug/webpack-with-angular1.git"
+  },
+  "author": "Kumudu Gunasekara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumudug/webpack-with-angular1/issues"
+  },
+  "homepage": "https://github.com/kumudug/webpack-with-angular1#readme",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
